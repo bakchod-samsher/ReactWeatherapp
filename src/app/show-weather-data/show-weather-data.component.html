@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-sm bg-dark justify-content-center"><form>
+    
+    <input class="inputCity" type="text" [(ngModel)] = 'cityName' name="cityName" placeholder="Type City Name">
+    
+    <button class="btn-primary" (click)="searchCityByname()" >Search</button>
+
+</form>
+</nav>
+
+   
+
+<div class="tableDiv">
+
+<table class="table">
+
+    <tr>
+        <th>Temperature</th>
+        <th>Humidity</th>
+        <th>Temperature Max.</th>
+        <th>Temperature Min.</th>
+    </tr>
+    
+    <tr>
+        <td>{{weatherData.temp}}</td>
+        <td>{{weatherData.humidity}}</td>
+        <td>{{weatherData.temp_max}}</td>
+        <td>{{weatherData.temp_min}}</td>
+    </tr>
+</table>
+
+
+</div>

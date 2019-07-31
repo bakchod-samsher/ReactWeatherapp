@@ -1,0 +1,11 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+
+.jumbotron{
+  
+    background:none;
+    text-align: center;
+    font-weight: 100 !important;
+}
+
+
